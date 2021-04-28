@@ -30,6 +30,7 @@
                 <li><a class="dropdown-item" href="../week1/looping.html">3. Looping</a></li>
                 <li><a class="dropdown-item" href="../week1/convert-value.html">4. Convert Value</a></li>
                 <li><a class="dropdown-item" href="../week1/prime-checker.html">5. Prime Checker</a></li>
+                <li><a class="dropdown-item" href="../week1/study-case.html">6. Study Case</a></li>
               </ul>
             </li>
           </ul>
@@ -65,14 +66,26 @@
              <div class="accordion-body">
                <code>
                   &lt;input
-                     type="text"
-                     oninput="changeText(event.target.value)"
-                     class="form-control"
-                     placeholder="ketik sesuatu ..."&gt;
+                  type="number"
+                  oninput="isPrime(event.target.value)"
+                  class="form-control"
+                  placeholder="masukan angka"&gt;
                      <br />
                      <br />
-                     function changeText(text) {   <br />
-                        &nbsp;   &nbsp;  document.getElementById("display").innerHTML = text;  <br />
+                     const isPrime = (num) => { <br />
+   
+                        let modular = 0;  <br />
+                     
+                        for (let i = 1; i <= num; i++){  <br />
+                         &nbsp; &nbsp;  if (num % i == 0) {  <br />
+                           &nbsp; &nbsp; &nbsp;   modular++   <br />
+                           &nbsp; &nbsp;    }  <br />
+                           }  <br />
+                        if (modular == 2) {  <br />
+                           &nbsp; &nbsp;   console.log("PRIME");   <br />
+                        } else { <br />
+                           &nbsp; &nbsp;   console.log("NOT PRIME");  <br />
+                        }  <br />
                      }
                  </code>
              </div>
