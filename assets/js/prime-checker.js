@@ -9,9 +9,10 @@ const isPrime = (num) => {
       }
    }
    if (modular == 2) {
+      document.getElementById("display").innerHTML = num + " Adalah Bilangan Prima";
       console.log("PRIME");
    } else {
-      console.log("NOT PRIME");
+      document.getElementById("display").innerHTML = num + " Bukan Bilangan Prima";
    }
 }
  

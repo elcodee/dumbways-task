@@ -3,7 +3,7 @@
 function loop(input) {
 
    
-   if (input == 15) {
+   if (input == 15) {   
       let num = "";
 
       for (let i = 1; i <= 15; i++){
@@ -15,7 +15,7 @@ function loop(input) {
    if (input == 15) {
       let num = "";
 
-      for (let i = 1; i <= 15; i++){
+      for (let i = 1; i <= 15 i++){
          let square = i * i;
          num += square + '&nbsp;' + ' ';
       }
@@ -25,7 +25,7 @@ function loop(input) {
    if (input == 20) {
       let num = "";
       
-      for (i=1; i<=61 ;i++) {
+      for (let i=1; i<=61 ;i++) {
          if (i % 3 == 0) {
             // console.log(i);
             num += i + '&nbsp;' + ' ';

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+   <title>Math Logic</title>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand px-4" href="/">Task Dumbways</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Week 1
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li><a class="dropdown-item" href="../week1/function.html">1. Function</a></li>
+               <li><a class="dropdown-item" href="../week1/function.html">2. Reverse</a></li>
+               <li><a class="dropdown-item" href="../week1/looping.html">3. Looping</a></li>
+               <li><a class="dropdown-item" href="../week1/convert-value.html">4. Convert Value</a></li>
+               <li><a class="dropdown-item" href="../week1/prime-checker.html">5. Prime Checker</a></li>
+               <li><a class="dropdown-item" href="../week1/math.html">6. Math</a></li>
+               <li><a class="dropdown-item" href="../week1/convert-temp.html">7. Convert Temperature</a></li>
+               <li><a class="dropdown-item" href="../week1/study-case.html">8. Study Case</a></li>
+               <li><a class="dropdown-item" href="../week1/count-letters.html">9. Counting Letters</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   <div class="container py-3">
+      <h3>Math Logic</h3>
+      <table class="table">
+         <thead>
+           <tr>
+             <th scope="col">Golongan</th>
+             <th scope="col">Gaji / Jam</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+              <td>A</td>
+              <td>1000</td>
+           </tr>
+           <tr>
+              <td>C</td>
+              <td>2000</td>
+          </tr>
+          <tr>
+             <td>D</td>
+             <td>3000</td>
+          </tr>
+          <tr>
+             <td>E</td>
+            <td>4000</td>
+          </tr>
+         </tbody>
+       </table>
+
+      <p class="font-monospace">
+         <b>Input : Nama Pegawai, Golangan A, Lama bekerja 8 Jam</b> <br/>
+         <b>Output : <br />
+            Nama: Bapak Andi <br />
+            Golangan: A    <br />
+            Gaji Perhari: Rp 8.000,00  <br />
+            Gaji Bulanan: Rp 240.000,00   <br />
+            Lembur: Rp 48.000,00    <br />
+            Total Keseluruhan: 288.000,00
+         </b>
+      </p>
+
+         <div class="mb-3">
+            <label class="form-label">Input Name</label>
+            <input
+            type="text"
+            id="nama"
+            class="form-control"
+            placeholder="input name">
+         </div>
+
+         <div class="mb-3">
+            <label class="form-label">Select Group</label>
+            <select class="form-select" id="group">
+               <option selected>Pilih ...</option>
+               <option value="A">A</option>
+               <option value="C">C</option>
+               <option value="D">D</option>
+               <option value="E">E</option>
+            </select>
+         </div>
+
+         <div class="mb-3">
+            <label class="form-label">Input Work Time</label>
+            <input
+            type="number"
+            id="worktime"
+            oninput="countSalary()"
+            class="form-control"
+            placeholder="input hour">
+         </div>
+
+       <div class="mb-3">
+         <label for="exampleFormControlTextarea1" class="form-label">Output</label>
+         <font color="Green"><h3 id="display"></h3></font>
+       </div>
+
+       <h4>Code </h4>
+         <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
+                  Lihat Kode JS 
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <code>
+                     &lt;input
+                     type="text"
+                     id="nama"
+                     class="form-control"
+                     placeholder="input name"&gt;
+                     <br />
+                     <br />
+                     &lt;select class="form-select" id="group"&gt;   <br />
+                     &nbsp; &nbsp; &lt;option selected>Pilih ...&lt;/option&gt; <br />
+                     &nbsp; &nbsp;   &lt;option value="A"&gt;A&lt;/option&gt; <br />
+                     &nbsp; &nbsp;   &lt;option value="C"&gt;C&lt;/option&gt; <br />
+                     &nbsp; &nbsp;   &lt;option value="D"&gt;D&lt;/option&gt; <br />
+                     &nbsp; &nbsp;   &lt;option value="E"&gt;E&lt;/option&gt; <br />
+                     &lt;/select&gt;
+                     <br />
+                     <br />
+                     &lt;input
+                     type="number"
+                     id="worktime"
+                     oninput="countSalary()"
+                     class="form-control"
+                     placeholder="input hour"&gt;
+                     <br />
+                     <br />
+                     function countSalary() {   <br />
+                        let nama = document.getElementById("nama").value;  <br />
+                        let golongan = document.getElementById("group").value;   <br />
+                        let hour = document.getElementById("worktime").value; <br />
+                        let days = 0;  <br />
+                        let month = 0; <br />   
+                        let bonus = 0; <br />
+                        let total = 0; <br /><br />
+                     
+                        if (golongan === 'A') { <br />
+                     &nbsp;if (hour * 30 >= 200) { <br />
+            &nbsp;&nbsp;      bonus = hour * 200   <br />
+                     &nbsp;}  <br /><br />
+                     
+                  &nbsp;   days = hour * 1000;  <br />
+                  &nbsp;   month = hour * 1000 * 30;  <br />
+                  &nbsp;   total = days + month + Bonus<br />
+                        }  <br /><br />
+                     
+                        if (golongan === 'C') { <br />
+                     &nbsp;   if (hour * 30 >= 200) { <br />
+                     &nbsp;   bonus = hour * 200   <br />
+                           }  <br /><br />
+                     
+                     &nbsp;   days = hour * 2000;  <br />
+                     &nbsp;   month = hour * 2000 * 30;  <br />
+                     &nbsp;   total = days + month + Bonus<br />  
+                        }  <br /><br />
+                     
+                        if (golongan === 'D') { <br />
+                     &nbsp;if (hour * 30 >= 200) { <br />
+               &nbsp;&nbsp;   bonus = hour * 200   <br />
+                           }  <br /><br />
+                     
+                  &nbsp;   days = hour * 3000;  <br />
+                  &nbsp;   month = hour * 3000 * 30;  <br />
+                  &nbsp;   total = days + month + Bonus  <br />
+                        }  <br /><br />
+                     
+                        if (golongan === 'E') { <br />
+                  &nbsp;   if (hour * 30 >= 200) { <br />
+            &nbsp;&nbsp;      bonus = hour * 200   <br />
+                           }  <br /><br />
+                     
+                  &nbsp;   days = hour * 4000;  <br />
+                  &nbsp;   month = hour * 4000 * 30;  <br />
+                  &nbsp;   total = days + month + Bonus <br />
+                        }  <br /><br /><br />
+                     
+                     
+                        // Day Converter  <br />
+                        let num1 = days.toString().split('').reverse().join(''); <br />
+                        let num2 = num1.match(/\d{1,3}/g);  <br />
+                        let dayIDR	= num2.join('.').split('').reverse().join('');  <br /><br />
+                     
+                        // Month Converter   <br />
+                        let num3 = month.toString().split('').reverse().join('');   <br />
+                        let num4 = num3.match(/\d{1,3}/g);  <br />
+                        let monthIDR = num4.join('.').split('').reverse().join(''); <br /><br />
+                     
+                        // Bonus Converter   <br />
+                        let num5 = bonus.toString().split('').reverse().join('');   <br />
+                        let num6 = num5.match(/\d{1,3}/g);  <br />
+                        let lemburIDR = num6.join('.').split('').reverse().join('');   <br /><br />
+                     
+                        // Total Converter   <br />
+                        let num7 = total.toString().split('').reverse().join('');   <br />
+                        let num8 = num7.match(/\d{1,3}/g);  <br />
+                        let totalIDR = num8.join('.').split('').reverse().join(''); <br /><br />
+                     
+                        document.getElementById("display").innerHTML = `Nama: ${nama} &lt;br /&gt; Golongan: ${golongan} &lt;br /&gt; Gaji Perhari: Rp ${dayIDR} &lt;br /&gt; Gaji Bulanan: Rp ${monthIDR} &lt;br /&gt; Lembur: Rp ${lemburIDR} &lt;br /&gt; Total Keseluruhan: Rp ${totalIDR}`;   <br />
+                     }
+
+                    </code>
+                </div>
+              </div>
+            </div>
+          </div>
+
+       <script src="../assets/js/math.js"></script>
+</body>
+</html>
