@@ -6,210 +6,75 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+   <script src="../assets/js/component.js"></script>
    <title>Convert Temperature</title>
 </head>
-<body>
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand px-4" href="/">Task Dumbways</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Week 1
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <li><a class="dropdown-item" href="../week1/function.html">1. Function</a></li>
-               <li><a class="dropdown-item" href="../week1/function.html">2. Reverse</a></li>
-               <li><a class="dropdown-item" href="../week1/looping.html">3. Looping</a></li>
-               <li><a class="dropdown-item" href="../week1/convert-value.html">4. Convert Value</a></li>
-               <li><a class="dropdown-item" href="../week1/prime-checker.html">5. Prime Checker</a></li>
-               <li><a class="dropdown-item" href="../week1/math.html">6. Math</a></li>
-               <li><a class="dropdown-item" href="../week1/convert-temp.html">7. Convert Temperature</a></li>
-               <li><a class="dropdown-item" href="../week1/study-case.html">8. Study Case</a></li>
-               <li><a class="dropdown-item" href="../week1/count-letters.html">9. Counting Letters</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<body onload="navWeek(); footer()">
 
-   <div class="container py-3">
+   <div id="nav"></div>
+
+   <div class="container py-5 animate__animated animate__fadeInDown">
       <h3>Convert Temperature</h3>
 
-         <div class="mb-3">
-            <label class="form-label">Celsius</label>
-            <input
-            type="number"
-            id="cel"
-            class="form-control"
-            oninput="celsius()"
-            placeholder="input value">
-         </div>
+      <div class="mb-3">
+         <label class="form-label">Celsius</label>
+         <input
+         type="number"
+         id="cel"
+         class="form-control"
+         oninput="celsius()"
+         placeholder="input value">
+      </div>
 
-         <div class="mb-3">
-            <label class="form-label">Reamur</label>
-            <input
-            type="number"
-            id="rea"
-            class="form-control"
-            oninput="reamur()"
-            placeholder="input value">
-         </div>
+      <div class="mb-3">
+         <label class="form-label">Reamur</label>
+         <input
+         type="number"
+         id="rea"
+         class="form-control"
+         oninput="reamur()"
+         placeholder="input value">
+      </div>
 
-         <div class="mb-3">
-            <label class="form-label">Farenheit</label>
-            <input
-            type="number"
-            id="far"
-            class="form-control"
-            oninput="farenheit()"
-            placeholder="input value">
-         </div>
+      <div class="mb-3">
+         <label class="form-label">Farenheit</label>
+         <input
+         type="number"
+         id="far"
+         class="form-control"
+         oninput="farenheit()"
+         placeholder="input value">
+      </div>
 
-         <div class="mb-3">
-            <label class="form-label">Kelvin</label>
-            <input
-            type="number"
-            id="kel"
-            class="form-control"
-            oninput="kelvin()"
-            placeholder="input value">
-         </div>
+      <div class="mb-3">
+         <label class="form-label">Kelvin</label>
+         <input
+         type="number"
+         id="kel"
+         class="form-control"
+         oninput="kelvin()"
+         placeholder="input value">
+      </div>
 
-       <h4>Code </h4>
-         <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">
-                  Lihat Kode JS 
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <code>
-                     &lt;input
-                     type="number"
-                     id="cel"
-                     class="form-control"
-                     oninput="celsius()"
-                     placeholder="input value"&gt;
-                     <br />
-                     &lt;input
-                     type="number"
-                     id="rea"
-                     class="form-control"
-                     oninput="reamur()"
-                     placeholder="input value"&gt;
-                     <br />
-                     &lt;input
-                     type="number"
-                     id="far"
-                     class="form-control"
-                     oninput="farenheit()"
-                     placeholder="input value"&gt;
-                     <br />
-                     &lt;input
-                     type="number"
-                     id="kel"
-                     class="form-control"
-                     oninput="kelvin()"
-                     placeholder="input value"&gt;
+      <hr />
+      
+      <figure>
+      <blockquote class="blockquote">
+         <a href="https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week1">https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week1</a>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+         <cite title="Source Title">See Javascript Code</cite>
+      </figcaption>
+      </figure>
 
-                     <br />
-                     <br />
-                     const celsius = () => { <br /><br />
+   </div>
+   
+   <div id="footer"></div>
 
-                        cToR();  <br />
-                        cToF();  <br />
-                        cToK();  <br /><br />
-                     
-                        function cToR() { <br />
-                        &nbsp; &nbsp;   let C = document.getElementById('cel').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('rea').placeholder = (Number(C) * 4 / 5) + ' °R'; <br />
-                        }  <br />
-                        function cToF() { <br />
-                        &nbsp; &nbsp;   let C = document.getElementById('cel').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('far').placeholder = (Number(C) * 9 / 5) + 32 + ' °F';  <br />
-                        }  <br />
-                        function cToK() { <br />
-                        &nbsp; &nbsp;   let C = document.getElementById('cel').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('kel').placeholder = (Number(C) + 273.15) + ' °K';   <br />
-                        }  <br />
-                     }  <br /><br />
-
-                     const reamur = () => {  <br /><br />
-
-                        rToC();  <br />
-                        rToF();  <br />
-                        rToK();  <br />   <br />
-                     
-                        function rToC() { <br />
-                        &nbsp; &nbsp;   let R = document.getElementById('rea').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('cel').placeholder = (Number(R) * 5 / 4) + ' °C'; <br />
-                        }  <br />
-                        function rToF() { <br />
-                        &nbsp; &nbsp;   let R = document.getElementById('rea').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('far').placeholder = (Number(R) * 9 / 4) + 32 + ' °F';  <br />
-                        }  <br />
-                        function rToK() { <br />
-                        &nbsp; &nbsp;   let R = document.getElementById('rea').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('kel').placeholder = (Number(R) * 5 / 4) + 273 + ' °K'; <br />
-                        }  <br />
-                     }  <br /><br />
-
-                     const farenheit = () => {  <br /><br />
-
-                        fToC();  <br />
-                        fToR();  <br />
-                        fToK();  <br />   <br />
-                        
-                        function fToC() { <br />
-                        &nbsp; &nbsp;   let F = document.getElementById('far').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('cel').placeholder = (Number(F - 32) * 5 / 9) + ' °C';  <br />
-                        }  <br />
-                        function fToR() { <br />
-                        &nbsp; &nbsp;   let F = document.getElementById('far').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('rea').placeholder = (Number(F - 32) * 4 / 9) + ' °R';  <br />
-                        }  <br />
-                        function fToK() { <br />
-                        &nbsp; &nbsp;   let F = document.getElementById('far').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('kel').placeholder = (Number(F - 32) * 5 / 9) + 273 + ' °K';  <br />
-                        }  <br />
-                     }  <br /><br />
-
-                     const kelvin = () => {  <br /><br />
-
-                        kToC();  <br />
-                        kToR();  <br />
-                        kToF();  <br />   <br />
-                     
-                        function kToC() { <br />
-                        &nbsp; &nbsp;   let K = document.getElementById('kel').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('cel').placeholder = Number(K - 273) + ' °C';  <br />
-                        }  <br />
-                        function kToR() {
-                        &nbsp; &nbsp;   let K = document.getElementById('kel').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('rea').placeholder = (Number(K - 273) * 4 / 5) + ' °R'; <br />
-                        }  <br />
-                        function kToF() { <br />
-                        &nbsp; &nbsp;   let K = document.getElementById('kel').value;   <br />
-                        &nbsp; &nbsp;   return document.getElementById('far').placeholder = (Number(K - 273) * 9 / 5) + 32 + ' °F';  <br />
-                        }  <br />
-                     }  <br />
-                    </code>
-                </div>
-              </div>
-            </div>
-          </div>
-
-       <script src="../assets/js/convert-temperature.js"></script>
+       <script src="../assets/js/week1/convert-temperature.js"></script>
 </body>
 </html>

@@ -71,6 +71,9 @@ function countSalary() {
    let totalIDR = num8.join('.').split('').reverse().join('');
 
 
-   console.log('nama: ' + nama + ' golongan: ' + golongan + ' jam: ' + hour + ' gajiPerhari: Rp ' + dayIDR + ' gajiPerbulan: Rp ' + monthIDR + ' Lembur: Rp ' + lemburIDR + ' Total: Rp ' + totalIDR);
-   document.getElementById("display").innerHTML = `Nama: ${nama} <br /> Golongan: ${golongan} <br /> Gaji Perhari: Rp ${dayIDR} <br /> Gaji Bulanan: Rp ${monthIDR} <br /> Lembur: Rp ${lemburIDR} <br /> Total Keseluruhan: Rp ${totalIDR}`;
+   document.getElementById("display").innerHTML = `
+   <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>Output :</strong> <br/><br/>Nama: ${nama} <br /> Golongan: ${golongan} <br /> Gaji Perhari: Rp ${dayIDR} <br /> Gaji Bulanan: Rp ${monthIDR} <br /> Lembur: Rp ${lemburIDR} <br /> Total Keseluruhan: Rp ${totalIDR}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+   </div>`;
 }
