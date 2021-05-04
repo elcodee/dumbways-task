@@ -34,9 +34,15 @@ const navbar = () => {
                    Week 2
                  </a>
                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="#">1. (?)</a></li>
-                   <li><a class="dropdown-item" href="#">2. (?)</a></li>
-                   <li><a class="dropdown-item" href="#">3. (?)</a></li>
+                   <li><a class="dropdown-item" href="week2/asterik-pattern.html">1. Asterik Pattern <span class="badge bg-success">Done</span></a></li>
+                   <li><a class="dropdown-item" href="week2/asterik-pattern.html">1. Asterik Pattern <span class="badge bg-success">Done</span></a></li>
+                   <li><a class="dropdown-item" href="week2/pascals-triangle.html">2. Pascal's Triangle <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="week2/prime-number-range.html">3. Prime Rumber Range <span class="badge bg-success">Done</span></a></li>
+                   <li><a class="dropdown-item" href="week2/multiplication-table.html">4. Multiplication Table <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="week2/vowels-check.html">5. Vowels Check <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="week2/removes-the-array.html">7. Removes the Array based on the Input <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-warning">Pending</span></a></li>
                  </ul>
                </li>
              </ul>
@@ -63,15 +69,15 @@ const navWeek = () => {
                    Week 1
                  </a>
                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="function.html">1. Function</a></li>
-                   <li><a class="dropdown-item" href="reverse.html">2. Reverse</a></li>
-                   <li><a class="dropdown-item" href="looping.html">3. Looping</a></li>
-                   <li><a class="dropdown-item" href="convert-value.html">4. Convert Value</a></li>
-                   <li><a class="dropdown-item" href="prime-checker.html">5. Prime Checker</a></li>
-                   <li><a class="dropdown-item" href="math.html">6. Math</a></li>
-                   <li><a class="dropdown-item" href="convert-temp.html">7. Convert Temperature</a></li>
-                   <li><a class="dropdown-item" href="study-case.html">8. Study Case</a></li>
-                   <li><a class="dropdown-item" href="count-letters.html">9. Counting Letters</a></li>
+                   <li><a class="dropdown-item" href="../week1/function.html">1. Function</a></li>
+                   <li><a class="dropdown-item" href="../week1/reverse.html">2. Reverse</a></li>
+                   <li><a class="dropdown-item" href="../week1/looping.html">3. Looping</a></li>
+                   <li><a class="dropdown-item" href="../week1/convert-value.html">4. Convert Value</a></li>
+                   <li><a class="dropdown-item" href="../week1/prime-checker.html">5. Prime Checker</a></li>
+                   <li><a class="dropdown-item" href="../week1/math.html">6. Math</a></li>
+                   <li><a class="dropdown-item" href="../week1/convert-temp.html">7. Convert Temperature</a></li>
+                   <li><a class="dropdown-item" href="../week1/study-case.html">8. Study Case</a></li>
+                   <li><a class="dropdown-item" href="../week1/count-letters.html">9. Counting Letters</a></li>
                  </ul>
                </li>
                <li class="nav-item dropdown">
@@ -79,9 +85,14 @@ const navWeek = () => {
                    Week 2
                  </a>
                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="#">1. (?)</a></li>
-                   <li><a class="dropdown-item" href="#">2. (?)</a></li>
-                   <li><a class="dropdown-item" href="#">3. (?)</a></li>
+                   <li><a class="dropdown-item" href="../week2/asterik-pattern.html">1. Asterik Pattern <span class="badge bg-success">Done</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/pascals-triangle.html">2. Pascal's Triangle <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/prime-number-range.html">3. Prime Rumber Range <span class="badge bg-success">Done</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/multiplication-table.html">4. Multiplication Table <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/vowels-check.html">5. Vowels Check <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/removes-the-array.html">7. Removes the Array based on the Input <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-warning">Pending</span></a></li>
                  </ul>
                </li>
              </ul>
