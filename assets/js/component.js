@@ -35,7 +35,6 @@ const navbar = () => {
                  </a>
                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                    <li><a class="dropdown-item" href="week2/asterik-pattern.html">1. Asterik Pattern <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="week2/asterik-pattern.html">1. Asterik Pattern <span class="badge bg-success">Done</span></a></li>
                    <li><a class="dropdown-item" href="week2/pascals-triangle.html">2. Pascal's Triangle <span class="badge bg-warning">Pending</span></a></li>
                    <li><a class="dropdown-item" href="week2/prime-number-range.html">3. Prime Rumber Range <span class="badge bg-success">Done</span></a></li>
                    <li><a class="dropdown-item" href="week2/multiplication-table.html">4. Multiplication Table <span class="badge bg-primary">Progress</span></a></li>
