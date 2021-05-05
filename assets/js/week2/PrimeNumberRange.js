@@ -27,11 +27,6 @@ const num = () => {
          }
          return num >= 1;
       }
-      document.getElementById("display").innerHTML = `
-      <div class="alert alert-success alert-dismissible fade show" role="alert">
-         <strong>Output :</strong> <br />
-         Bilangan prima antara ${int1} dan ${int2} adalah <br /> ${arr.filter(isPrime)}
-         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div> `;
+      document.getElementById("display").innerHTML = `Bilangan prima antara ${int1} dan ${int2} adalah <br /> ${arr.filter(isPrime)}`
    }
 }
