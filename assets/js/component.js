@@ -39,8 +39,8 @@ const navbar = () => {
                    <li><a class="dropdown-item" href="week2/prime-number-range.html">3. Prime Rumber Range <span class="badge bg-success">Done</span></a></li>
                    <li><a class="dropdown-item" href="week2/multiplication-table.html">4. Multiplication Table <span class="badge bg-success">Done</span></a></li>
                    <li><a class="dropdown-item" href="week2/vowels-check.html">5. Vowels Check <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence <span class="badge bg-warning">Pending</span></a></li>
-                   <li><a class="dropdown-item" href="week2/removes-the-array.html">7. Removes the Array based on the Input <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence <span class="badge bg-success">Done</span></a></li>
+                   <li><a class="dropdown-item" href="week2/removes-the-array.html">7. Removes the Array based on the Input <span class="badge bg-success">Done</span></a></li>
                    <li><a class="dropdown-item" href="week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-warning">Pending</span></a></li>
                  </ul>
                </li>
@@ -89,8 +89,8 @@ const navWeek = () => {
                    <li><a class="dropdown-item" href="../week2/prime-number-range.html">3. Prime Rumber Range <span class="badge bg-success">Done</span></a></li>
                    <li><a class="dropdown-item" href="../week2/multiplication-table.html">4. Multiplication Table <span class="badge bg-success">Done</span></a></li>
                    <li><a class="dropdown-item" href="../week2/vowels-check.html">5. Vowels Check <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="../week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence <span class="badge bg-warning">Pending</span></a></li>
-                   <li><a class="dropdown-item" href="../week2/removes-the-array.html">7. Removes the Array based on the Input <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence <span class="badge bg-success">Done</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/removes-the-array.html">7. Removes the Array based on the Input <span class="badge bg-success">Done</span></a></li>
                    <li><a class="dropdown-item" href="../week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-warning">Pending</span></a></li>
                  </ul>
                </li>
