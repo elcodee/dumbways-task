@@ -28,21 +28,29 @@
       </p>
 
       <div class="mb-3">
+        <h4>Data = [<span id="data"></span>]</h4>
+      </div>
+
+      <div class="mb-3">
          <label class="form-label">Input 1</label>
          <input
          type="text"
-         oninput="run(event.target.value)"
+         id="str"
          class="form-control"
-         placeholder="Pisahkan Data Menggunakan (,)" disabled>
-       </div>
+         placeholder="ketik data ...">
+      </div>
+      
+      <div class="mb-3">
+         <button class="btn btn-dark mb-2" onclick="toArray()">Add</button>
+      </div>
 
        <div class="mb-3">
          <label class="form-label">Input 2</label>
          <input
          type="text"
-         oninput="run(event.target.value)"
+         oninput="remove(event.target.value)"
          class="form-control"
-         placeholder="ketik data ..." disabled>
+         placeholder="ketik data ...">
        </div>
 
        <div class="mb-3">
@@ -81,8 +89,18 @@
 
       </div>
       <div id="footer"></div>
-   
-   <script src="../assets/js/week2/pascals-triangle.js"></script>
+   <script>
+//       var array = ['one','two','three',4,5,6,7,8,9,10];
+// var remove = function(removeID){
+//     var index = array.indexOf(removeID);
+//     if (index>-1) {
+//         array.splice(index, 1);
+//     }
+// }
+// remove(prompt("Enter ID of the worker you wish to remove: "));
+// console.log(array);
+   </script>
+   <script src="../assets/js/week2/remove-the-array.js"></script>
 
 </body>
 </html>
