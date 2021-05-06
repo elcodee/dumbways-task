@@ -34,14 +34,14 @@ const navbar = () => {
                    Week 2
                  </a>
                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="week2/asterik-pattern.html">1. Asterik Pattern <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="week2/pascals-triangle.html">2. Pascal's Triangle <span class="badge bg-warning">Pending</span></a></li>
-                   <li><a class="dropdown-item" href="week2/prime-number-range.html">3. Prime Rumber Range <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="week2/multiplication-table.html">4. Multiplication Table <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="week2/vowels-check.html">5. Vowels Check <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="week2/removes-the-array.html">7. Removes the Array based on the Input <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="week2/asterik-pattern.html">1. Asterik Pattern</a></li>
+                   <li><a class="dropdown-item" href="week2/pascals-triangle.html">2. Pascal's Triangle <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="week2/prime-number-range.html">3. Prime Rumber Range</a></li>
+                   <li><a class="dropdown-item" href="week2/multiplication-table.html">4. Multiplication Table</a></li>
+                   <li><a class="dropdown-item" href="week2/vowels-check.html">5. Vowels Check</a></li>
+                   <li><a class="dropdown-item" href="week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence</a></li>
+                   <li><a class="dropdown-item" href="week2/removes-the-array.html">7. Removes the Array based on the Input</a></li>
+                   <li><a class="dropdown-item" href="week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-primary">Progress</span></a></li>
                  </ul>
                </li>
              </ul>
@@ -84,14 +84,14 @@ const navWeek = () => {
                    Week 2
                  </a>
                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <li><a class="dropdown-item" href="../week2/asterik-pattern.html">1. Asterik Pattern <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="../week2/pascals-triangle.html">2. Pascal's Triangle <span class="badge bg-warning">Pending</span></a></li>
-                   <li><a class="dropdown-item" href="../week2/prime-number-range.html">3. Prime Rumber Range <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="../week2/multiplication-table.html">4. Multiplication Table <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="../week2/vowels-check.html">5. Vowels Check <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="../week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="../week2/removes-the-array.html">7. Removes the Array based on the Input <span class="badge bg-success">Done</span></a></li>
-                   <li><a class="dropdown-item" href="../week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-warning">Pending</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/asterik-pattern.html">1. Asterik Pattern</a></li>
+                   <li><a class="dropdown-item" href="../week2/pascals-triangle.html">2. Pascal's Triangle <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/prime-number-range.html">3. Prime Rumber Range</a></li>
+                   <li><a class="dropdown-item" href="../week2/multiplication-table.html">4. Multiplication Table</a></li>
+                   <li><a class="dropdown-item" href="../week2/vowels-check.html">5. Vowels Check</a></li>
+                   <li><a class="dropdown-item" href="../week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence</a></li>
+                   <li><a class="dropdown-item" href="../week2/removes-the-array.html">7. Removes the Array based on the Input</a></li>
+                   <li><a class="dropdown-item" href="../week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-primary">Progress</span></a></li>
                  </ul>
                </li>
              </ul>
