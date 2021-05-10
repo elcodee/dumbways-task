@@ -13,13 +13,13 @@ const isPrime = (num) => {
       <div class="alert alert-success alert-dismissible fade show" role="alert">
          <strong>Output :</strong> ${num} Adalah Bilangan Prima
          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div> `;;
+      </div> `;
       console.log("PRIME");
    } else {
       document.getElementById("display").innerHTML = `
       <div class="alert alert-danger alert-dismissible fade show" role="alert">
          <strong>Output :</strong> ${num} Bukan Bilangan Prima
          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-      </div> `;;
+      </div> `;
    }
 }

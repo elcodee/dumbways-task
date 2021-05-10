@@ -41,7 +41,7 @@ const navbar = () => {
                    <li><a class="dropdown-item" href="week2/vowels-check.html">5. Vowels Check</a></li>
                    <li><a class="dropdown-item" href="week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence</a></li>
                    <li><a class="dropdown-item" href="week2/removes-the-array.html">7. Removes the Array based on the Input</a></li>
-                   <li><a class="dropdown-item" href="week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="week2/concatenate-arrays.html">8. Concatenate Arrays</a></li>
                  </ul>
                </li>
              </ul>
@@ -91,7 +91,7 @@ const navWeek = () => {
                    <li><a class="dropdown-item" href="../week2/vowels-check.html">5. Vowels Check</a></li>
                    <li><a class="dropdown-item" href="../week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence</a></li>
                    <li><a class="dropdown-item" href="../week2/removes-the-array.html">7. Removes the Array based on the Input</a></li>
-                   <li><a class="dropdown-item" href="../week2/concatenate-arrays.html">8. Concatenate Arrays <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="../week2/concatenate-arrays.html">8. Concatenate Arrays</a></li>
                  </ul>
                </li>
              </ul>
