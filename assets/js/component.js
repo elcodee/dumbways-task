@@ -44,6 +44,16 @@ const navbar = () => {
                    <li><a class="dropdown-item" href="week2/concatenate-arrays.html">8. Concatenate Arrays</a></li>
                  </ul>
                </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Week 3
+                 </a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="week3/make-database.html">1. Make Database <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="#">2. Sentence selection <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="#">3. Choose 2 questions in the previous week <span class="badge bg-warning">Pending</span></a></li>
+                 </ul>
+               </li>
              </ul>
            </div>
          </div>
@@ -92,6 +102,16 @@ const navWeek = () => {
                    <li><a class="dropdown-item" href="../week2/fibonacci-number-sequence.html">6. The Fibonacci Number Sequence</a></li>
                    <li><a class="dropdown-item" href="../week2/removes-the-array.html">7. Removes the Array based on the Input</a></li>
                    <li><a class="dropdown-item" href="../week2/concatenate-arrays.html">8. Concatenate Arrays</a></li>
+                 </ul>
+               </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Week 3
+                 </a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="../week3/make-database.html">1. Make Database <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="#">2. Sentence selection <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="#">3. Choose 2 questions in the previous week <span class="badge bg-warning">Pending</span></a></li>
                  </ul>
                </li>
              </ul>
