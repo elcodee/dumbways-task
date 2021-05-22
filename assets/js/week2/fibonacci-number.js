@@ -10,14 +10,11 @@ const run = (num) => {
    } else {
       let n1 = 0, n2 = 1, saveNum;
       
-      console.log('Fibonacci Series:');
-      
       for (let i = 1; i <= num; i++) {
-         console.log(n1);
-         saveNum = n1 + n2;
+         saveNum = n1 + n2; // Variable NAme
          n1 = n2;
          n2 = saveNum;
-         document.getElementById("display").innerHTML += n1;
+         document.getElementById("display").innerHTML += n1 + '&nbsp;' + ' ';
       }
    }
 };

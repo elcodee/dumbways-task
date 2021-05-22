@@ -50,7 +50,7 @@ const navbar = () => {
                  </a>
                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                    <li><a class="dropdown-item" href="week3/make-database.html">1. Make Database <span class="badge bg-primary">Progress</span></a></li>
-                   <li><a class="dropdown-item" href="#">2. Sentence selection <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="week3/sentence-selection.html">2. Sentence selection</a></li>
                    <li><a class="dropdown-item" href="#">3. Choose 2 questions in the previous week <span class="badge bg-warning">Pending</span></a></li>
                  </ul>
                </li>
@@ -110,7 +110,7 @@ const navWeek = () => {
                  </a>
                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                    <li><a class="dropdown-item" href="../week3/make-database.html">1. Make Database <span class="badge bg-primary">Progress</span></a></li>
-                   <li><a class="dropdown-item" href="#">2. Sentence selection <span class="badge bg-primary">Progress</span></a></li>
+                   <li><a class="dropdown-item" href="../week3/sentence-selection.html">2. Sentence selection</a></li>
                    <li><a class="dropdown-item" href="#">3. Choose 2 questions in the previous week <span class="badge bg-warning">Pending</span></a></li>
                  </ul>
                </li>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+   <script src="../assets/js/component.js"></script>
+   <title>Sentence selection</title>
+</head>
+<body onload="navWeek(); footer()">
+
+   <div id="nav"></div>
+
+   <div class="container py-3 animate__animated animate__fadeInDown">
+      <h3>Sentence selection</h3>
+
+      <p class="font-monospace">
+         <b>Case Input : 
+            “hello”, “hello world oke lorem ipsum dolor. Aku mau belajar react js. Hey kamu mau kemana?. Kapan kita jalan bareng lagi. Hello all."
+         </b> 
+         <br/>
+         <b>
+            Case Output : hello world oke lorem ipsum dolor, Hello all.
+         </b>
+      </p>
+
+       <hr />
+
+       <div class="mb-3">
+         <label class="form-label">Word</label>
+         <input
+         type="text"
+         id="word"
+         class="form-control"
+         value="hello">
+      </div>
+
+      <div class="mb-3">
+         <label class="form-label">Sentence</label>
+         <input
+         type="text"
+         id="sentence"
+         class="form-control"
+         value="hello world oke lorem ipsum dolor. Aku mau belajar react js. Hey kamu mau kemana?. Kapan kita jalan bareng lagi. Hello all">
+      </div>
+
+      <div class="mb-3">
+         <button class="btn btn-dark mb-2" id="search">Search Word</button>
+      </div>
+
+      <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Output</label>
+         <h4 id="display"></h4>
+      </div>
+
+      <hr />
+
+       <figure>
+         <blockquote class="blockquote">
+           <a href="https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week3">https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week3</a>
+         </blockquote>
+         <figcaption class="blockquote-footer">
+            <cite title="Source Title">See Javascript Code</cite>
+         </figcaption>
+       </figure>
+
+
+
+      </div>
+      <div id="footer"></div>
+   
+   <script src="../assets/js/week3/sentence-selection.js"></script>
+
+</body>
+</html>
