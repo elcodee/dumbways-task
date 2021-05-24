@@ -20,6 +20,7 @@ const counting = () => {
 }
 
 
+
 // Reverse Converted To Method Logic
 const reverse = () => {
    let angka = document.getElementById('num').value;
@@ -53,4 +54,39 @@ document.getElementById("count").addEventListener("click", function () {
 
 document.getElementById("reset").addEventListener("click", function () {
    return document.getElementById("display-multi-table").innerHTML = ''
+});
+
+
+
+// Concatenate Arrays Converted To Method Logic
+let numberOne, numberTwo, result;
+
+document.getElementById("add").addEventListener("click", function () {
+   numberOne = document.getElementById("num1").value.split('');
+   numberTwo = document.getElementById("num2").value.split('');
+   result = numberOne.concat(numberTwo);
+   
+   document.getElementById("data1").innerHTML = numberOne;
+   document.getElementById("data2").innerHTML = numberTwo;
+   document.getElementById("data3").innerHTML = result;
+});
+
+document.getElementById("find").addEventListener("click", function () {
+   const display = document.getElementById("concate-arr");
+   document.getElementById("display-arr").innerHTML = '[' + result + ']';
+
+   result.map((num, key) => {
+      return display.innerHTML += `
+      <div class="d-block">
+      <span class="badge bg-info my-2">Index Ke: ${key} Value: ${num}</span>
+      </div>`
+   })
+});
+
+document.getElementById("resetResult").addEventListener("click", function () {
+   document.getElementById("data1").innerHTML = ''
+   document.getElementById("data2").innerHTML = ''
+   document.getElementById("data3").innerHTML = ''
+   document.getElementById("display-arr").innerHTML = ''
+   document.getElementById("concate-arr").innerHTML = ''
 });
