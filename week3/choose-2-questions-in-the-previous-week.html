@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+   <script src="../assets/js/component.js"></script>
+   <title>Counting Letters</title>
+</head>
+<body onload="navWeek(); footer()">
+   
+   <div id="nav"></div>
+
+   <div class="container py-5 animate__animated animate__fadeInDown">
+      <h3>1. Counting Letters ( Week 1 )</h3>
+
+      <div class="mb-3">
+         <label class="form-label">Input Text For Count</label>
+         <input
+         type="text"
+         id="teks"
+         class="form-control"
+         value="saya mau makan nasi ya guys">
+      </div>
+
+      <div class="mb-3">
+         <label class="form-label">Input Letter To Count</label>
+         <input
+         type="text"
+         id="letter"
+         oninput="counting()"
+         class="form-control"
+         placeholder="input 1 letter">
+      </div>
+
+      <div class="mb-3">
+         <label for="exampleFormControlTextarea1" class="form-label">Output</label>
+         <font color="Green"><h3 id="display"></h3></font>
+      </div>
+
+      <hr />
+      
+      <figure>
+      <blockquote class="blockquote">
+         <a href="https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week1">https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week1</a>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+         <cite title="Source Title">See Javascript Code</cite>
+      </figcaption>
+      </figure>
+
+      <hr />
+
+      <h3>2. Reverse ( Week 1 )</h3>
+
+      <div class="mb-3">
+         <label class="form-label">Input number</label>
+         <input
+         type="number"
+         id="num"
+         oninput="reverse()"
+         class="form-control"
+         placeholder="input numbers">
+      </div>
+
+      <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Output</label>
+         <h4 id="display-reverse"></h4>
+      </div>
+
+      <hr />
+       <figure>
+         <blockquote class="blockquote">
+           <a href="https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week1">https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week1</a>
+         </blockquote>
+         <figcaption class="blockquote-footer">
+            <cite title="Source Title">See Javascript Code</cite>
+         </figcaption>
+       </figure>
+
+       <hr />
+
+       <h3>3. Multiplication Table ( Week 2 )</h3>
+
+      <div class="mb-3">
+         <label class="form-label">Input Number</label>
+         <input
+         type="number"
+         id="number"
+         class="form-control"
+         placeholder="ketik Angka ...">
+       </div>
+
+       <div class="mb-3">
+         <label class="form-label">Count To</label>
+         <input
+         type="number"
+         id="countTo"
+         class="form-control"
+         placeholder="ketik Angka ...">
+       </div>
+
+       <div class="mb-3">
+         <button class="btn btn-dark mb-2" id="count">Count</button>
+         <button class="btn btn-danger mb-2" id="reset">Reset</button>
+      </div>
+
+       <div class="mb-3">
+         <label for="exampleFormControlTextarea1" class="form-label">Output</label>
+         <h4 id="display-multi-table"></h4>
+       </div>
+
+       <hr />
+
+       <figure>
+         <blockquote class="blockquote">
+           <a href="https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week2">https://github.com/elcodee/dumbways-task/tree/rama/assets/js/week2</a>
+         </blockquote>
+         <figcaption class="blockquote-footer">
+            <cite title="Source Title">See Javascript Code</cite>
+         </figcaption>
+       </figure>
+
+   </div>
+   
+   <div id="footer"></div> 
+
+       <script src="../assets/js/week3/choose-2-questions-in-the-previous-week.js"></script>
+</body>
+</html>
